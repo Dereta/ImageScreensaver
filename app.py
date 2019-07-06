@@ -37,8 +37,8 @@ def main():
 
     running = True
     while running:
-        # Limit FPS to 10
-        clock.tick(10)
+        # Limit FPS to 4
+        clock.tick(4)
 
         # Check for reset fill screen
         screen_reset -= 1
